@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "History Override (Angular)",
+  "description": "History page override with Angular frontend",
+  "version": "0.1",
+  "chrome_url_overrides": {
+    "history": "index.html"
+  },
+  "permissions": ["history", "favicon"],
+  "icons": {
+    "16": "icons/history16.png",
+    "32": "icons/history32.png",
+    "48": "icons/history48.png",
+    "128": "icons/history128.png"
+  }
+}
